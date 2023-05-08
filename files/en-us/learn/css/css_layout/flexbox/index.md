@@ -64,7 +64,7 @@ This causes the \<section> element to become a **flex container** and its childr
 
 So, this single declaration gives us everything we need. Incredible, right? We have our multiple column layout with equal-sized columns, and the columns are all the same height. This is because the default values given to flex items (the children of the flex container) are set up to solve common problems such as this.
 
-To be clear, let's reiterate what is happening here. The element we've given a {{cssxref("display")}} value of `flex` to is acting like a block-level element in terms of how it interacts with the rest of the page, but its children are laid out as flex items. The next section will explain in more detail what this means. Note also that you can use a `display` value of `inline-flex` if you wish to lay out an element's children as flex items, but have that element behave like an inline element.
+To be clear, let's reiterate what is happening here. The element we've given a {{cssxref("display")}} value of `flex` so is acting like a block-level element in terms of how it interacts with the rest of the page, but its children are laid out as flex items. The next section will explain in more detail what this means. Note also that you can use a `display` value of `inline-flex` if you wish to lay out an element's children as flex items, but have that element behave like an inline element.
 
 ## The flex model
 
